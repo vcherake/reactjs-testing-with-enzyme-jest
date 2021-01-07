@@ -8,7 +8,7 @@ describe("list tests", () => {
 
     const wrapper = mount(<List items={items} />);
 
-    // console.log(wrapper.debug());
+    console.log(wrapper.debug());
 
     // Expect wrapper object to be defined
     expect(wrapper.find(".list-items")).toBeDefined();
